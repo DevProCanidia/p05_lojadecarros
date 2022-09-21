@@ -729,24 +729,28 @@ footer nav ul a{
 	text-decoration: none;
 }
 
+.DevProCanidia{
+	display: inline-flex;
+}
+
 .DevProCanidia img{
 	width: 90px;
 	height: 30px;
-	margin-left: 100px;
+	/*margin-left: 190px;original*/
+	margin: 0 90px;
 	background-color: black;
 	background-size: cover;
 	background-position: center;
-	float: left;
+	float: right;
 	cursor: pointer;
 }
 
 footer p{
-	text-align: right;
 	color: white;
-	font-size: 19px;
-	font-style: italic;
-
+	text-align: center;
 }
+
+
 
 /***** R E S P O N S I V O  N O   T A M A N H O  1 1 0 0 P X  *************/
 @media screen and (max-width: 1100px){
@@ -820,9 +824,14 @@ footer p{
 	footer{
 	text-align: center;
 	}
+	.DevProCanidia img{
+		margin-left: auto;
+		
+	}
 
 	footer p{
 	float: none;
+	color: white;
 	}
 
 	.sidebar{
@@ -916,4 +925,5 @@ footer p{
 	.vitrine-destaque{
 	width: 100%;
 	}
+	
 }
